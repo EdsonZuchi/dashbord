@@ -1,0 +1,2027 @@
+@media print{
+	.noprint {
+		visibility:hidden; 
+	}
+}
+@font-face {
+    font-family: inconsolata;
+    src: url('fonts/Inconsolata-Bold.ttf') format('truetype');
+  	font-weight: bold;
+  	font-style: bold;
+}
+
+@font-face {
+    font-family: inconsolata;
+    src: url('fonts/Inconsolata-Regular.ttf') format('truetype'); 
+	font-weight: normal;
+  	font-style: normal;
+}
+
+A:LINK {
+	color : #0066CC;
+}
+A:VISITED {
+	color : #0066CC;
+}
+
+P {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+INPUT {
+	line-height: 15px;
+	spacing : 0px;
+	padding : 0px;
+	padding-right : 1px;
+	padding-bottom : 2px;
+	padding-top : 0px;
+	height : 17px;
+}
+input[type="checkbox"] {
+	margin: 3;
+	height : 11px !important;
+	width : 11px;
+}
+
+input[type="radio"] {
+	margin-top: 0px;	
+	height : 12px !important;
+	width : 12px;
+}
+
+body{
+	scrollbar-3dlight-color : none;
+	scrollbar-arrow-color : #18596B;
+	scrollbar-base-color : #E0E0E0;
+	scrollbar-darkshadow-color : white;
+	scrollbar-face-color : inherit;
+	scrollbar-shadow-color :inherit;
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+    vertical-align:baseline;
+}
+
+SELECT {
+	height: 19px;
+}
+
+tr {
+	height: 15px;
+}
+
+.but {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;
+	cursor: hand;
+}
+.butacao {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;
+	width : 70px;
+	height : 25px;
+}
+.butred {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	width : 22px;
+	height : 20px;
+}
+.btacao {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;
+	width : 70px;
+	height : 20px;
+}
+.butc {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;
+	cursor: hand;
+	text-align: center;	
+}
+
+.botao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: hand;
+	text-align: center;
+	width: 90px;
+	height: 20px;
+}
+
+.botao1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: hand;
+	text-align: center;
+	width: 45px;
+	height: 20px;
+}
+
+.botao2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: hand;
+	text-align: center;
+	width: 50px;
+	height: 20px;
+}
+
+.botao3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: hand;
+	text-align: center;
+	width: 25px;
+	height: 20px;
+}
+
+.dis {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+.dis_azul {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+   color: blue;
+}
+
+.disc {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	text-align : center;
+}
+.disd {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	text-align : right;
+}
+.dise {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	text-align : left;
+}
+.dise_vermelho {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	text-align : left;
+    color: Red;
+}
+.disn {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+}
+.disnc {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	text-align : center;
+}
+.disnd {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	text-align : right;
+}
+.disne {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	text-align : left;
+}
+.hint {
+  font-family: "Verdana, Arial";
+  font-size: 10px
+}
+.inp {
+	font-size : 10pt;
+	font-family :Courier, monospace;
+}
+.inpc {
+	font-size : 10pt;
+	font-family :Courier, monospace;
+	text-align : center;
+}
+.inpd {
+	font-size : 10pt;
+	font-family :Courier, monospace;
+	text-align : right;
+}
+.inpe {
+	font-size : 10pt;
+	font-family :Courier, monospace;
+	text-align : left;
+}
+.inpred {
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+.inpredd {
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+	text-align : right;
+}
+.inprede {
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+	text-align : left;
+}
+.inq {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+}
+.inqc {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+}
+.inqcn {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+}
+.inqd {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+}
+.inqdn {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+}
+.inqe {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+}
+.inqen {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+}
+.inqn {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+}
+.inqred {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+}
+.inqrede {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+}
+.inqredc {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+}
+.inqredd {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+}
+.titc {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11pt;
+	font-weight : bold;
+	text-align : center;
+}
+.tit10c {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;
+	text-align : center;
+}
+.titd {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11pt;
+	font-weight : bold;
+	text-align : right;
+}
+.tite {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11pt;
+	font-weight : bold;
+	text-align : left;
+}
+.msg {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11pt;
+	font-weight : bold;
+	color : blue;
+}
+.msgred {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	color : red;
+}
+
+.upload_arq {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	height : 25px;
+}
+
+.titnota {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : center;	
+}
+
+.titnota02 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : left;	
+}
+
+.titnota02b {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : center;	
+}
+
+.titnota03 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	font-weight : bold;	
+	height : 25px;
+	border : 1px solid Black;	
+}
+
+.titnota03b {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : center;
+	border : 1px solid Black;	
+}
+
+.titnota04{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 18pt;
+	font-weight : bold;	
+	height : 30px;
+	text-align : left;	
+}
+
+.titnota04b{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16pt;
+	font-weight : bold;	
+	height : 30px;
+	text-align : center;	
+	border : 1px solid Black;		
+}
+.titnota05 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : left;	
+}
+
+.titnota06 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	height : 25px;
+}
+
+.titnota07 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : right;	
+	border : 1px solid Black;
+}
+
+.titnota08 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : right;	
+	border : 1px solid Black;
+}
+
+.titnota09 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : right;	
+}
+
+.dsnota {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;	
+	height : 25px;
+	text-align : left;	
+}
+
+.borda {
+	border : 1px solid Black;
+	}
+
+.inqmre {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;	
+}
+.inqmrc {
+	font-size : 7pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;	
+}
+.vip {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color:Red;
+}
+
+.link_falso_inqc {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: Blue;
+	cursor: hand;
+	text-decoration: underline;
+}
+
+.link_falso_inqe {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+	color: Blue;
+	cursor: hand;
+	text-decoration: underline;
+}
+
+.link_falso_inqd {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+	color: Blue;
+	cursor: hand;
+	text-decoration: underline;
+}
+
+.link_falso_inq {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color: Blue;
+	cursor: hand;
+	text-decoration: underline;
+}
+
+.inq9{
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+.inqe9{
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: bold;
+}
+.inqc9{
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+.inqd9{
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    text-align: right;
+    font-weight: bold;
+}
+.dis9 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+}
+.dise9 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	text-align : left;
+}
+.disc9 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	text-align : center;
+}
+.disd9 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	text-align : right;
+}
+.tite10 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	text-align : left;
+}
+.titc10 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	text-align : center;
+}
+.titd10 {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	text-align : right;
+}
+.cn_9pt {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+}
+.cn_9pt_e {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    text-align: left;
+}
+.cn_9pt_c {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    text-align: left;
+}
+.cn_9pt_d {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    text-align: right;
+}
+.cn_9pt_negrito {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+.cn_9pt_negrito_e {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+}
+.cn_9pt_negrito_c {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+}
+.cn_9pt_negrito_d {
+	font-size : 9pt;
+	font-family : "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: right;
+}
+.inq_vermelho {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+    color: Red;
+}
+.inqc_vermelho {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+    color: Red;
+}
+.inqd_vermelho {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+    color: Red;
+}
+.inqe_vermelho {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+    color: Red;
+}
+
+.inq_azul {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+    color: Blue;
+}
+.inqc_azul {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+    color: Blue;
+}
+.inqd_azul {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+    color: Blue;
+}
+.inqe_azul {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+    color: Blue;
+}
+.inqcn_azul {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+    color: Blue;
+}
+.inqdn_azul {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+    color: Blue;
+}
+.inqen_azul {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+    color: Blue;
+}
+.inqc_laranja {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+    color: #FF8000;
+}
+.inqd_laranja {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+    color: #FF8000;
+}
+.inqe_laranja {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+    color: #FF8000;
+}
+.inqcn_laranja {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+    color: #FF8000;
+}
+.inqdn_laranja {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+    color: #FF8000;
+}
+.inqen_laranja {
+	font-size : 10pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+    color: #FF8000;
+}
+.sai {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+}
+.saic {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+}
+.saicn {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+}
+.said {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+}
+.saidn {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+}
+.saie {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+}
+.saien {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+}
+.saien_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+    color: Red;
+}
+.sai_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+    color: Red;
+}
+.saic_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+    color: Red;
+}
+.saicn_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+    color: Red;
+}
+.said_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+    color: Red;
+}
+.saidn_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+    color: Red;
+}
+.saie_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+    color: Red;
+}
+.sai_rosa {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+    color: DeepPink;
+}
+.saic_rosa {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+    color: DeepPink;
+}
+.saicn_rosa {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+    color: DeepPink;
+}
+.said_rosa {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+    color: DeepPink;
+}
+.saidn_rosa {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+    color: DeepPink;
+}
+.saie_rosa {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+    color: DeepPink;
+}
+.saien_rosa {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+    color: DeepPink;
+}
+.sai_verde {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color: Green;
+}
+.saien_verde {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+	color: Green;
+}
+.saic_verde {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: Green;
+}
+.said_verde {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+	color: Green;
+}
+.saidn_verde {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+	color: Green;
+}
+.saie_verde {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+	color: Green;
+}
+.sai_amarelo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color: #FFA500;
+}
+.saic_amarelo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: #FFA500;
+}
+.said_amarelo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+	color: #FFA500;
+}
+.saidn_amarelo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+	color: #FFA500;
+}
+.saie_amarelo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+	color: #FFA500;
+}
+.sai_amarelo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color: #DDDD00;
+}
+.saic_amarelo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: #DDDD00;
+}
+.said_amarelo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+	color: #DDDD00;
+}
+.saie_amarelo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+	color: #DDDD00;
+}
+.saien_amarelo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+	color: #FFA500;
+}
+.sai_roxo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color: #8000FF
+}
+.saic_roxo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: #8000FF
+}
+.said_roxo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+	color: #8000FF
+}
+.saie_roxo_call {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+	color: #8000FF
+}
+.saien_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+	color: Blue;
+}
+.sai_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color: Blue;
+}
+.saic_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: Blue;
+}
+.said_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+	color: Blue;
+}
+.saidn_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+	color: Blue;
+}
+.saie_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+	color: Blue;
+}
+.saicn_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+	color: Blue;
+}
+.saic_azul {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: Blue;
+}
+
+.sai_cinza {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	color: #8C8C8C;
+}
+.saic_cinza {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+	color: #8C8C8C;
+}
+.said_cinza {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+	color: #8C8C8C;
+}
+.saie_cinza {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+	color: #8C8C8C;
+}
+
+.titinf {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+}
+.titinf_amarelo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+	color: #FFA500;
+}
+.titinf_verde {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+	color: Green;
+}
+.titinf_vermelho {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+	color: Red;
+}
+.cab {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight : bold;
+	text-align : center;
+}
+.cabc {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight : bold;
+	text-align : center;
+}
+.cabd {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight : bold;
+	text-align : right;
+}
+.cabe {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight : bold;
+	text-align : left;
+}
+.peq {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : bold;
+}
+.sif {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+}
+.sifc {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : center;
+}
+.sifcn {
+	font-size : 7pt;
+	font-family : "Verdana";
+	text-align : center;
+}
+.sifd {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : right;
+}
+.sifdn {
+	font-size : 7pt;
+	font-family : "Verdana";
+	text-align : right;
+}
+.sife {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : left;
+}
+.sifen {
+	font-size : 7pt;
+	font-family : "Verdana";
+	text-align : left;
+}
+.sifen_vermelho {
+	font-size : 7pt;
+	font-family : "Verdana";
+	text-align : left;
+    color: Red;
+}
+.sif_vermelho {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+    color: Red;
+}
+.sifc_vermelho {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : center;
+    color: Red;
+}
+.sifd_vermelho {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : right;
+    color: Red;
+}
+.sifdn_vermelho {
+	font-size : 7pt;
+	font-family : "Verdana";
+	text-align : right;
+    color: Red;
+}
+.sife_vermelho {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : left;
+    color: Red;
+}
+.sifen_azul {
+	font-size : 7pt;
+	font-family : "Verdana";
+	text-align : left;
+    color: Blue;
+}
+.sif_azul {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+    color: Blue;
+}
+.sifc_azul {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : center;
+    color: Blue;
+}
+.sifd_azul {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : right;
+    color: Blue;
+}
+.sifdn_azul {
+	font-size : 7pt;
+	font-family : "Verdana";
+	text-align : right;
+    color: Blue;
+}
+.sife_azul {
+	font-size : 7pt;
+	font-family : "Verdana";
+	font-weight : bold;
+	text-align : left;
+    color: Blue;
+}
+
+.saien_laranja {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+    color: #FF8000;
+}
+.saie_laranja {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+    color: #FF8000;
+}
+.sai_laranja {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+    color: #FF8000;
+}
+.saic_laranja {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+    color: #FF8000;
+}
+.said_laranja {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+    color: #FF8000;
+}
+.saidn_laranja {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+    color: #FF8000;
+}
+
+.saien_roxo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : left;
+    color: #8000FF;
+}
+.sai_roxo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+    color: #8000FF;
+}
+.saic_roxo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : center;
+    color: #800080;
+}
+.saicn_roxo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : center;
+    color: #800080;
+}
+.said_roxo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : right;
+    color: #800080;
+}
+.saidn_roxo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	text-align : right;
+    color: #800080;
+}
+.saie_roxo {
+	font-size : 8pt;
+	font-family : "Courier New", Courier, monospace;
+	font-weight : bold;
+	text-align : left;
+    color: #800080;
+}
+
+/* *********** */
+/* NOVO VISUAL */
+/* *********** */
+.topo{
+    height: 78px;
+    background-color:  #416b7c;  
+    min-width: 800px;   
+    width: 100%;
+	position: fixed;
+	z-index: 9997;
+	top: 0;
+	left: 0;	
+}       
+.topo_teste{
+    height: 78px;
+    background-color:  #416b7c;  
+    min-width: 800px;   
+    width: 100%;
+	position: fixed;
+	z-index: 9997;
+	top: 0;
+	left: 0;	
+}          
+.topo_principal{
+    height: 48px;                
+    border-bottom: 2px solid #FFF;  
+    width: 100%
+}        
+.logo{ /* Logo geral */ 
+    display: table; 
+    height: 100%; 
+    #position: relative; 
+    overflow: hidden;
+    float:left;            
+    width: 154px;
+}
+
+.centralizadov_right{ /*Logo centralizado vertical */                      
+    #position: absolute; 
+    #top: 50%;
+    display: table-cell;     
+    vertical-align: middle;     
+    width: 100%;
+    text-align: right;
+}
+.logo_espaco{                    
+    float: left;            
+    height: 100%;    
+    width: 14px;
+}
+.topo_inf{   /*Informa��es do topo geral */             
+    display: table; 
+    height: 100%; 
+    #position: relative; 
+    overflow: hidden;  
+    float: left;                
+    width: 50%;
+    min-width: 450px;    
+}
+.centralizadov{    /*Informa��es do topo centralizado vertical */      
+    #position: absolute; 
+    #top: 50%;
+    display: table-cell; 
+    vertical-align: middle;    
+    width: 100%;    
+}    
+.tpinc9{
+    font-family:inconsolata, "Courier new"; 
+    font-size:9pt;
+    color:white;    
+	background-color: transparent;
+}
+.tpinc11{            
+    font-family:inconsolata, "Courier new"; 
+    font-size:11pt;
+    color:white;    
+	background-color: transparent;
+	font-weight: bold;
+}
+.tpinc10{            
+    font-family:inconsolata, "Courier new"; 
+    font-size:10pt;
+    color:white;   
+	background-color: transparent; 
+}
+.tpinc12{            
+    font-family:inconsolata, "Courier new"; 
+    font-size:10pt;
+    color:gray;   
+	background-color: transparent; 
+}
+.primeira{    
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;     
+}
+.topo_final{   /*Informa��es do final geral */             
+    display: table; 
+    height: 100%; 
+    #position: relative; 
+    overflow: hidden;  
+    float: right;          
+    width: 20%;
+    min-width: 20%;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.segunda{                
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;     
+}
+.topo_botoes{                
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 2px;     
+}
+.clear{
+    clear:both;
+}
+
+/* Segunda parte do topo - A��es */ 
+
+.topo_secundario{
+    height: 28px;     
+    width: 100%;
+}
+
+.topo_sec{
+    width: 100%;
+    height: 28px;
+}
+.sec_espaco{    
+    float: left;            
+    height: 100%;    
+    width: 10px;
+}
+	
+.topo_botoes_fixos{
+    height: 100%;
+    width: 144px;
+    float:left;    
+    
+}
+.imgBotoes{    
+    width: 36px;
+    float:left;
+	cursor: hand;
+}
+
+.botoes_espaco{
+    float: left;            
+    height: 100%;    
+    width: 14px;
+}
+
+
+.topo_botoes_telas{
+    height: 100%;    
+    float:left;    
+    position: relative;    
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+
+.topo_sec_final{   /*Informa��es do final geral */             
+    display: table; 
+    height: 100%; 
+    #position: relative; 
+    overflow: hidden;
+    float:right;
+    padding-right: 20px;    
+    width: 280px;
+    min-width: 280px;
+    
+}
+.segunda_sec{                
+    width: 100%;
+}
+.imgPeq{
+    margin-left: 0.3em;
+	cursor: hand;
+}
+
+.timer{
+    position: relative;
+    top: -2px;   
+	float:right;
+}
+.proAti{
+    border: none;
+    color: #000;
+    font-family: inconsolata, "Courier new";
+    font-weight: bold;		
+    height: 17px;
+	font-size: 9pt;	
+	width: 70px;
+	padding-left: 2px;
+	content: "Prox. Ati.";
+}   
+
+::-webkit-input-placeholder {
+   color: #cacaca;
+}
+
+:-ms-input-placeholder {  
+   color: #cacaca;
+}
+
+.topo span{
+	background-color: transparent;	
+}
+
+.combo_empresa{
+	font-family: inconsolata, "Courier new";
+	font-size: 9pt;
+	font-weight: bold;
+	height: 15px;
+	width: 120px;
+	margin: 0px; 
+	padding: 0px; 
+	border:none;
+	vertical-align: top;
+
+	appearance: none;
+  	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	-o-appearance: none;
+	background: url('../Images/Singe/topo/seta_combo.gif') no-repeat right #FFF;
+}
+
+.semCombo_empresa{
+	font-family: inconsolata, "Courier new";
+	font-size: 9pt;
+	font-weight: bold;
+	height: 15px;
+	width: 120px;
+	margin: 0px; 
+	padding-left: 5px; 
+	border:none;
+	vertical-align: top;
+	float: left;
+	
+}
+
+.imgCombo{
+	top: 2px;
+	/*left: 140px;*/
+	width: 150px;
+	height: 15px;
+	float: left;
+	position: relative;
+	background-color: #fff;
+}
+
+.imgEmpresa{
+	vertical-align: center;
+	height: 14px;
+	float: left;
+	padding-left: 3px;
+}
+
+.relogioTopo{
+	top: 2px;	
+	height: 15px;
+	float: left;
+	position: relative;
+	right: 5px;
+}
+
+
+.relogio {
+	color:#FFFFFF;
+	background-color : transparent;
+  	border-width : 0 0 0 0;
+	font-family: inconsolata, "Courier new";
+	font-size: 9pt;
+ }
+
+.frmrelogio{
+	width: 40px;
+	margin: 0px;
+}
+
+.imgRelogio{
+	position: relative;
+	float: right;
+	left: 4px;
+	top: 1px;
+}
+
+.menuTopoIr{
+	display: none; 
+	color: white;
+	background-color: #416b7c;
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 250px;	
+	z-index: 9996;	
+	position: absolute;
+	top: 78px;
+}
+
+.menuTopo{
+	display: none; 
+	color: white;
+	background-color: #416b7c;
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 240px;	
+	z-index: 9996;	
+	position: absolute;
+	top: 78px;
+}
+
+.menuTopo2{
+	display: none; 
+	color: white;
+	background-color: rgb(73,114,130);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 240px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuTopo3{
+	display: none; 
+	color: white;
+	background-color: rgb(82, 121, 136);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 330px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuTopo4{
+	display: none; 
+	color: white;
+	background-color: rgb(90, 128, 143);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 440px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuTopo5{
+	display: none; 
+	color: white;
+	background-color: rgb(99, 135, 149);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 425px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuTopoP{
+	display: none; 
+	color: white;
+	background-color: #416b7c;
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 360px;	
+	z-index: 9996;	
+	position: absolute;
+	top: 78px;
+}
+
+.menuTopoP2{
+	display: none; 
+	color: white;
+	background-color: rgb(73,114,130);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 360px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuTopoP3{
+	display: none; 
+	color: white;
+	background-color: rgb(82, 121, 136);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 360px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuTopoP4{
+	display: none; 
+	color: white;
+	background-color: rgb(90, 128, 143);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 360px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuTopoP5{
+	display: none; 
+	color: white;
+	background-color: rgb(99, 135, 149);
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 360px;	
+	z-index: 9996;	
+	position: absolute;
+}
+
+.menuBusca{
+	display: none; 
+	color: white;
+	background-color: #416b7c;
+	border: 1px solid #FFF;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	width: 425px;	
+	z-index: 9996;	
+	position: absolute;
+	top: 78px;
+}
+
+.fundoMenu{
+	position:fixed;
+	top:78px;
+	left:0px;
+	width:100%;
+	display:none;
+	z-index:9995;
+}      
+
+#irPara{
+	left: 118px;	
+}
+
+#menu{
+	left: 10px;	
+}
+
+#menuPersonal{
+	left: 46px;	
+}
+
+#busca{
+	left: 82px;	
+}
+
+.item{
+	display: table; 
+    height: 20px; 
+    #position: relative; 
+    overflow: hidden;	        
+    width: 100%;		
+}
+.itemCentralizadoV{
+	#position: absolute; 
+    #top: 50%;
+    display: table-cell; 
+    vertical-align: middle;    
+	height: 100%;
+	/*padding: 3px;*/
+	padding-left: 3px;
+}
+.item:hover{
+	background-color: #3B5B67;
+	cursor:hand;		
+}
+.itemNext:hover{
+	background-color: #3B5B67;
+	cursor:hand;	
+	background-image: url('../Images/Singe/topo/next.gif');
+	background-repeat: no-repeat;
+	z-index: 9999999;
+	background-position: right center;
+}
+
+.menu span{
+	position: relative;
+	top: -2px;
+}
+
+.semAcesso{
+	color: #999999;
+}
+
+.corHint{
+	background-color: #F5F5F5;
+}
+
+.divHint{
+	position:absolute;
+	visibility:hidden;
+	z-index:900;
+	border:1px solid #7f7d7d;
+	background-color: #F5F5F5;
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.botaoTopo{
+	position: fixed;
+	z-index: 9998;
+	top: 50px;
+	cursor: hand;
+}
+
+.campoBusca{
+	width: 96%;
+	margin-left: 3px;
+	margin-right: 3px;
+	background-image: url(../Images/Singe/topo/lupa.gif);
+	background-repeat:no-repeat; 
+	background-position: right center;
+	font-family: inconsolata, "Courier new";
+	border: 1px solid #adadad;
+	color: #514f4f;
+	font-size: 10pt;
+}	
+.campoBusca::-ms-clear {
+    display: none;
+}
+
+.linkBusca{
+	text-align:center;
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+}
+
+.linkBusca a{
+	font-family: inconsolata, "Courier new";
+	font-size: 10pt;
+	color: white;
+	text-decoration: none;
+}	
+
+.busca{
+	height: 30px;
+	/*border-bottom: 2px solid white;*/
+}   
+
+.busca a{
+	color: white;
+	text-decoration: none;
+}	
+
+.bordaInferior{
+	border-bottom: 2px solid white;
+} 
+
+.resultado-busca{
+	border-top: 2px solid white;
+}     
+
+.itemBusca{
+	display: table; 
+    height: 20px; 
+    #position: relative; 
+    overflow: hidden;	        
+    width: 100%;	
+}
+
+.buscaMais{
+	width: 100%;
+	text-align:center;
+	cursor: hand;
+}
+
+
+/* Div */
+.divGeral{
+	border: 3px solid #416b7b;
+	background-color: #d3e5ea;
+	z-index: 5;
+	overflow: visible;
+	position:absolute;
+}
+
+.divGeral table{
+	background-color: #d3e5ea;
+}
+
+.divTopo{
+	width: 100%;
+	height: 25px;
+	background-color: #416b7b !important; 
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Inconsolata, Arial, Verdana;
+	line-height: 22px; /* 25 da altura - 2 da borda */
+	z-index: 5;
+    font-size:11pt;
+}
+
+.divBotaoTopo{
+	z-index: 6;		
+	position: absolute;
+	background-color: #416b7b !important; 
+	top: 4px;
+	/*height: 25px;*/
+	line-height: 23px; /* 25 da altura - 2 da borda */
+	right: 5px;
+	float: right;
+	cursor: hand;
+}	
+
+.divConteudo{
+	margin: 10px;
+}
+
+.waitPri{
+	visibility:visible;
+	position:fixed;
+	z-index:9999;
+	background-color:#000000;
+	opacity:0.7;
+	width:100%;
+	height:100%;
+	display:table;
+}
+
+.waitSec{
+	#position: absolute; 
+	#top: 50%; 
+	display: table-cell; 
+	height: 100%;
+	padding-left: 3px;
+	vertical-align: middle;
+}
+
+.waitImg{
+	height: 150px;
+	width: 150px;
+	animation: 30s infinite;
+}	
+
+.abrirImagemFundo{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    z-index:1001;
+    -moz-opacity: 0.5;
+    opacity:.50;
+    filter: alpha(opacity=50);
+}
+
+.abrirImagemBranco {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -188px;
+    margin-left: -188px;
+    border: 5px solid #666666;
+    z-index:1002;
+    overflow: auto;
+}
+
+.conteudoFixo{
+	z-index: 9995;
+	position: fixed;	
+	background-color: #eaf5f9;
+}
+
+.fundoDestaque{
+	background-color: #95b5bc;
+}
+
+.fundoDestacaLinnhaClaro{
+	background-color: #c5d7d8;
+}
+
+.fundoDestacaLinhaEscuro{
+	background-color: #abc9c8;
+}
+
+TEXTAREA {
+	resize:none;
+}
