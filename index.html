@@ -15,14 +15,38 @@
     <script src="includes/statesGeoData/SC.js"></script>
     <script src="includes/statesGeoData/SP.js"></script>
     <script src="includes/statesGeoData/Brazil.js"></script>
+    <script src="includes/statesGeoData/Sul.js"></script>
+    <script src="includes/statesGeoData/Filial.js"></script>
     <script src="includes/amcharts5/amcharts5/xy.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const valFilter = urlParams.get("typeFilter");
+        const valValue = urlParams.get("typeValue");
+    </script>
 </head>
 <body>
-
+    <form action="" method="get" name="pag">
     <div class="topo">
         <div class="topo_principal"></div>
         <div class="clear"></div>
         <div class="topo_secundario"></div>
+    </div>
+
+    <div class="filter">
+        <div class="select">
+            <span class="saien">Por</span>
+            <select class="saien" name="typeFilter" id="typeFilter" onchange="sub_form()">
+                <option value="1">Estado</option>
+                <option value="2">Filial</option>
+            </select>
+        </div>
+        <div class="select">
+            <span class="saien">Pesquisa</span>
+            <select class="saien" name="typeValue" id="typeValue" onchange="sub_form()">
+                <option value="1">Clientes</option>
+                <option value="2">Venda</option>
+            </select>
+        </div>
     </div>
 
     <div class="window">
@@ -38,8 +62,29 @@
     <br>
     <a href="https://www.amcharts.com/demos/" target="_blank">Outro possiveis gráfico aqui</a>
 
+    <script>
+        function sub_form(){
+            pag.submit();
+        }
+        if(valFilter == null){
+            $('#typeFilter').val(1);
+            $('#typeValue').val(1);
+        }else{
+            $('#typeFilter').val(valFilter);
+            $('#typeValue').val(valValue);
+        }
+
+        var script = document.createElement('script');
+        if($('#typeFilter').val() == 1){
+            script.src = 'includes/js/new_script.js';
+        }else{
+            script.src = 'includes/js/mapFilial.js';
+        }
+        document.body.appendChild(script);
+    </script>
+
     <script src="includes/js/dadosdb.js"></script>
     <script src="includes/js/bar_chart.js"></script>
-    <script src="includes/js/new_script.js"></script>
+    </form>
 </body>
 </html>

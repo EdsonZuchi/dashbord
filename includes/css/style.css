@@ -1,6 +1,6 @@
 .window{
     display: flex;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 10px;
     gap: 20px;
 }
@@ -20,4 +20,11 @@
 #chartdiv, #divBar {
     width: 99%;
     height: 99%;
+}
+
+.filter{
+    margin-top: 90px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
 }
