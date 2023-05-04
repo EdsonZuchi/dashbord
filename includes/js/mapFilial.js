@@ -50,7 +50,8 @@ limitStateBrazil.setAll({
         key: "fill"
     }]
 });
-limitStateBrazil.data.setAll(values);
+limitStateBrazil.data.setAll(valuesFilial);
+setData(valuesFilial);
 
 //Map gray
 var limitStateBrazilGray = am5map.MapPolygonSeries.new(root, {
@@ -104,7 +105,7 @@ homeButton.events.on("click", function() {
     limitStateBrazil.show()
     heatLegend.set("startValue", limitStateBrazil.getPrivate("valueLow"));
     heatLegend.set("endValue", limitStateBrazil.getPrivate("valueHigh"));
-    setData(values);
+    setData(valuesFilial);
     chart.goHome();
 });
 
@@ -133,8 +134,8 @@ limitStateBrazil.events.on("datavalidated", function() {
 function checkState(state){
     let map;
     switch(state){
-        case "BR-SC":
-            map = Brazil_SC;
+        case "Sul":
+            map = am5geodata_brazilLow;
             break
         case "BR-SP":
             map = Brazil_SP;
@@ -147,8 +148,8 @@ function checkState(state){
 function checkStateValues(state){
     let status;
     switch(state){
-        case "BR-SC":
-            status = cityValuesSC;
+        case "Sul":
+            status = valuesFilialSul;
             break
         case "BR-SP":
             status = cityValuesSP;
@@ -195,3 +196,13 @@ function seriesPush(idState){
 
     return state
 }
+
+arrayBrazil = mapBrazil.features;
+
+var cood = ''; 
+arrayBrazil.forEach(element => {
+    var id = element.id;
+    if(id == 'BR-SC' || id == 'BR-PR' || id == 'BR-RS'){
+        cood = cood.concat(element.geometry.coordinates);
+    }
+});

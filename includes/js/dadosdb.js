@@ -25,7 +25,21 @@ var values = [
     {id: "BR-MS", value: 898},
     {id: "BR-MT", value: 1160},
     {id: "BR-GO", value: 1405},
-    {id: "BR-DF", value: 255}
+    {id: "BR-DF", value: 255},
+]
+
+var valuesFilial = [
+    {id: "Sul", value: 5255},
+    {id: "Sudeste", value: 898},
+    {id: "Centro Oeste", value: 1160},
+    {id: "Norte", value: 1405},
+    {id: "Nordeste", value: 255}
+]
+
+var valuesFilialSul = [
+    {id: "BR-SC", value: 2455},
+    {id: "BR-PR", value: 898},
+    {id: "BR-RS", value: 1160},
 ]
 
 var cityValuesSC = [

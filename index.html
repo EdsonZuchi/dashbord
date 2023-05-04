@@ -74,16 +74,25 @@
             $('#typeValue').val(valValue);
         }
 
-        var script = document.createElement('script');
-        if($('#typeFilter').val() == 1){
-            script.src = 'includes/js/new_script.js';
+        var test = document.createElement('script');
+        if($('#typeValue').val() == 1){
+            test.src = 'includes/js/dadosdb.js';
         }else{
-            script.src = 'includes/js/mapFilial.js';
+            test.src = 'includes/js/dadosfil.js';
         }
-        document.body.appendChild(script);
+        document.body.appendChild(test);
+
+        setTimeout(function(){
+            var script = document.createElement('script');
+            if($('#typeFilter').val() == 1){
+                script.src = 'includes/js/new_script.js';
+            }else{
+                script.src = 'includes/js/mapFilial.js';
+            }
+            document.body.appendChild(script);
+        }, 100);
     </script>
 
-    <script src="includes/js/dadosdb.js"></script>
     <script src="includes/js/bar_chart.js"></script>
     </form>
 </body>

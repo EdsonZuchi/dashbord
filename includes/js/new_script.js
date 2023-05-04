@@ -51,6 +51,7 @@ limitStateBrazil.setAll({
     }]
 });
 limitStateBrazil.data.setAll(values);
+setData(values);
 
 //Map gray
 var limitStateBrazilGray = am5map.MapPolygonSeries.new(root, {

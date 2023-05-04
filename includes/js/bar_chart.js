@@ -79,8 +79,7 @@
     series.data.setAll(data);
 
   }
-
-  setData(values);
+  
   // Make stuff animate on load
   // https://www.amcharts.com/docs/v5/concepts/animations/
   series.appear(1000);
