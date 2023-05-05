@@ -144,6 +144,9 @@ function checkState(state){
         case "BR-SP":
             map = Brazil_SP;
             break
+        case "BR-RS":
+            map = Brazil_RS;
+            break
     }
 
     return map;
@@ -160,6 +163,9 @@ function checkStateValues(state){
             break
         case "BR-SP":
             status = cityValuesSP;
+            break
+        case "BR-RS":
+            status = cityValuesRS;
             break
         default:
             status = []
