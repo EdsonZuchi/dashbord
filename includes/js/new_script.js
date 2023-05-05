@@ -133,9 +133,13 @@ limitStateBrazil.events.on("datavalidated", function() {
 
 function checkState(state){
     let map;
+
     switch(state){
         case "BR-SC":
             map = Brazil_SC;
+            break
+        case "BR-PR":
+            map = Brazil_PR;
             break
         case "BR-SP":
             map = Brazil_SP;
@@ -150,6 +154,9 @@ function checkStateValues(state){
     switch(state){
         case "BR-SC":
             status = cityValuesSC;
+            break
+        case "BR-PR":
+            status = cityValuesPR;
             break
         case "BR-SP":
             status = cityValuesSP;
@@ -186,9 +193,7 @@ function seriesPush(idState){
     });
 
     state.data.setAll(checkStateValues(idState));
-
     setData(checkStateValues(idState));
-
     state.events.on("datavalidated", function() {
         heatLegend.set("startValue", stateRender.getPrivate("valueLow"));
         heatLegend.set("endValue", stateRender.getPrivate("valueHigh"));

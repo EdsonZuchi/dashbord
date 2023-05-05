@@ -137,9 +137,6 @@ function checkState(state){
         case "Sul":
             map = am5geodata_brazilLow;
             break
-        case "BR-SP":
-            map = Brazil_SP;
-            break
     }
 
     return map;
@@ -151,8 +148,8 @@ function checkStateValues(state){
         case "Sul":
             status = valuesFilialSul;
             break
-        case "BR-SP":
-            status = cityValuesSP;
+        case "Sudeste":
+            status = valuesFilialSul;
             break
         default:
             status = []
@@ -196,13 +193,3 @@ function seriesPush(idState){
 
     return state
 }
-
-arrayBrazil = mapBrazil.features;
-
-var cood = ''; 
-arrayBrazil.forEach(element => {
-    var id = element.id;
-    if(id == 'BR-SC' || id == 'BR-PR' || id == 'BR-RS'){
-        cood = cood.concat(element.geometry.coordinates);
-    }
-});
