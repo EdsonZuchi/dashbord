@@ -47,6 +47,7 @@
             <select class="saien" name="typeValue" id="typeValue" onchange="sub_form()">
                 <option value="1">Clientes</option>
                 <option value="2">Venda</option>
+                <option value="3">Categoria Fio Domestico</option>
             </select>
         </div>
     </div>
@@ -59,12 +60,13 @@
             <div id="divBar"></div>
         </div>
     </div>
+    <!--
     <div class="window">
         <div class="repres">
             <div id="represdiv"></div>
         </div>
     </div>
-
+    -->
     <br>
     <br>
     <a href="https://www.amcharts.com/demos/" target="_blank">Outro possiveis gráfico aqui</a>
@@ -84,8 +86,12 @@
         var test = document.createElement('script');
         if($('#typeValue').val() == 1){
             test.src = 'includes/js/dadosdb.js';
-        }else{
+        }
+        if($('#typeValue').val() == 2){
             test.src = 'includes/js/dadosfil.js';
+        }
+        if($('#typeValue').val() == 3){
+            test.src = 'includes/js/categoriaFio.js';
         }
         document.body.appendChild(test);
 
