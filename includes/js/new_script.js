@@ -44,14 +44,31 @@ limitStateBrazil.mapPolygons.template.events.on("click", function (ev){
 limitStateBrazil.setAll({
     heatRules: [{
         target: limitStateBrazil.mapPolygons.template, 
-        min: am5.color(StartColor),
-        max: am5.color(EndColor),
         dataField: "value",
-        key: "fill"
+        customFunction: function(sprite, min, max, value) {
+            for(var index = 0; index < colors.length; index++){
+                if(index == 0){
+                    if(value < colors[index].value){
+                        sprite.set("fill", am5.color(0x46F2FA));
+                        break;
+                    }
+                }
+                if(index == (colors.length-1)){
+                    if(value >= colors[index].value){
+                        sprite.set("fill", am5.color(colors[index].color));
+                        break;
+                    }
+                }
+                if(value >= colors[index].value && value < colors[index+1].value){
+                    sprite.set("fill", am5.color(colors[index].color));
+                    break;
+                }
+            }
+        }
     }]
 });
 limitStateBrazil.data.setAll(values);
-setData(values);
+setData(values, 0);
 
 //Map gray
 var limitStateBrazilGray = am5map.MapPolygonSeries.new(root, {
@@ -105,7 +122,7 @@ homeButton.events.on("click", function() {
     limitStateBrazil.show()
     heatLegend.set("startValue", limitStateBrazil.getPrivate("valueLow"));
     heatLegend.set("endValue", limitStateBrazil.getPrivate("valueHigh"));
-    setData(values);
+    setData(values, 0);
     chart.goHome();
 });
 
@@ -113,9 +130,9 @@ homeButton.events.on("click", function() {
 heatLegend = chart.children.push(
     am5.HeatLegend.new(root, {
         orientation: "horizontal", 
-        startColor: am5.color(StartColor),
-        endColor: am5.color(EndColor),
-        stepCount: 10
+        startColor: am5.color(colors[0].color),
+        endColor: am5.color(colors[colors.length-1].color),
+        stepCount: colors.length
     })
 )
 heatLegend.startLabel.setAll({
@@ -191,15 +208,32 @@ function seriesPush(idState){
     state.setAll({
         heatRules: [{
             target: state.mapPolygons.template, 
-            min: am5.color(StartColor),
-            max: am5.color(EndColor),
             dataField: "value",
-            key: "fill"
+            customFunction: function(sprite, min, max, value) {
+                for(var index = 0; index < colorsState.length; index++){
+                    if(index == 0){
+                        if(value < colorsState[index].value){
+                            sprite.set("fill", am5.color(0x46F2FA));
+                            break;
+                        }
+                    }
+                    if(index == (colorsState.length-1)){
+                        if(value >= colorsState[index].value){
+                            sprite.set("fill", am5.color(colorsState[index].color));
+                            break;
+                        }
+                    }
+                    if(value >= colorsState[index].value && value < colorsState[index+1].value){
+                        sprite.set("fill", am5.color(colorsState[index].color));
+                        break;
+                    }
+                }
+            }
         }]
     });
 
     state.data.setAll(checkStateValues(idState));
-    setData(checkStateValues(idState));
+    setData(checkStateValues(idState), 1);
     state.events.on("datavalidated", function() {
         heatLegend.set("startValue", stateRender.getPrivate("valueLow"));
         heatLegend.set("endValue", stateRender.getPrivate("valueHigh"));

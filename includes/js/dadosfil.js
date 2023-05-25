@@ -1,3 +1,22 @@
+var colors = [
+    {value: 50000, color: 0x0CCCF7},
+    {value: 150000, color: 0x0B5DD4},
+    {value: 400000, color: 0x0001EB},
+    {value: 750000, color: 0x600BD4},
+    {value: 1000000, color: 0xCF00F5},
+    {value: 2000000, color: 0xF500B1},
+    {value: 3000000, color: 0xF4006D},
+    {value: 4000000, color: 0xF50032}
+]
+
+var colorsState = [
+    {value: 1000, color: 0x0CCCF7},
+    {value: 5000, color: 0x0B5DD4},
+    {value: 10000, color: 0x0001EB},
+    {value: 20000, color: 0x600BD4},
+    {value: 50000, color: 0xCF00F5}
+]
+
 var values = [
     {id: "BR-RO", value: 85344.73},
     {id: "BR-AC", value: 40331.47},

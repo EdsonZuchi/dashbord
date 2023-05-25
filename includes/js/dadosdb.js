@@ -1,3 +1,19 @@
+var colors = [
+    {value: 100, color: 0x0CCCF7},
+    {value: 1000, color: 0x0B5DD4},
+    {value: 3000, color: 0x0001EB},
+    {value: 4000, color: 0x600BD4},
+    {value: 6000, color: 0xCF00F5}
+]
+
+var colorsState = [
+    {value: 10, color: 0x0CCCF7},
+    {value: 50, color: 0x0B5DD4},
+    {value: 100, color: 0x0001EB},
+    {value: 300, color: 0x600BD4},
+    {value: 500, color: 0xCF00F5}
+]
+
 var values = [
     {id: "BR-RO", value: 510},
     {id: "BR-AC", value: 110},
