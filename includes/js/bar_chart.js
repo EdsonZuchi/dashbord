@@ -43,7 +43,7 @@
   
   var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
     maxDeviation: 0.3,
-    categoryField: "id",
+    categoryField: "name",
     renderer: xRenderer,
     tooltip: am5.Tooltip.new(root, {})
   }));
@@ -64,7 +64,7 @@
     yAxis: yAxis,
     valueYField: "value",
     sequencedInterpolation: true,
-    categoryXField: "id",
+    categoryXField: "name",
     tooltip: am5.Tooltip.new(root, {
       labelText: "{valueY}"
     })
@@ -91,7 +91,7 @@
       return fill;
     });
   }
-  
+
   function setData(vars, inState){
 
     //Set data
